@@ -28,4 +28,4 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(port, () => console.log('L', 'server running...'));
+server.listen(port, '0.0.0.0' ,() => console.log('L', 'server running...'));
